@@ -1,0 +1,80 @@
+.grob-im{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.grob-im img{
+    max-width: 20%;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+   /* mobil*/ 
+
+   @media (max-width: 767px){
+
+
+    .img-course img{
+        width: 40%;
+         height: 30vh;
+         display: inline;
+     
+       
+     
+     }
+
+}
+
+
+.lioin-course p{
+    background-color: #CE0708;
+    width: 240px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: x-large;
+    padding: 10px;
+    animation-name: sal;
+    animation-duration: 2s;
+    animation-timing-function:initial;
+    animation-iteration-count: infinite;
+}
+
+
+.grob-im img:hover{
+    animation-name: sa;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+   
+}
+
+
+
+
+@keyframes sa{
+    0%{
+         transform:rotate(10deg);
+    }
+
+
+
+    100%{
+        transform:rotate(360deg);
+
+    }
+}
+
+
+@keyframes sal{
+    0%{
+        background-color:#CE0708 ;
+    }
+
+
+
+    100%{
+        background-color: black;
+
+    }
+}

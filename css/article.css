@@ -1,0 +1,12 @@
+.article{
+    padding: 15px;
+}
+.article p{
+   text-align: right; 
+   font-size: 25px;
+}
+.article h1{
+    text-align: right;
+    font-size:35px;
+    color: #0098ff;
+}

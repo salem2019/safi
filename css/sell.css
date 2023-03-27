@@ -1,0 +1,30 @@
+.sessions .card button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.sessions .card button:hover{
+    background-color: rgba(0, 128, 0, 0.637);
+    transition: 1s;
+}
+
+.sessions .card button:hover{
+    transform: scale(1.1);
+}
+
+.sessions .card {
+    margin: 20px;
+}
+
+ .background-img div{
+    text-align: center;
+    font-size: large;
+    height: auto;
+    
+ }
+
+ .background-img{
+    max-width: 100%;
+    justify-self: center;
+
+ }
